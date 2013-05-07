@@ -134,14 +134,6 @@
 					point.x=x * wh;//当前节点的x位置
 					point.y=y * wh;//当前节点的y位置
 					
-					/*
-					mapArr[y][x].px=x;//当前节点横向索引位置
-					mapArr[y][x].py=y;//当前节点纵向索引位置
-					mapArr[y][x].go=mapPoint;//当前节点是否可通过
-					mapArr[y][x].x=x * wh;//当前节点的x位置
-					mapArr[y][x].y=y * wh;//当前节点的y位置
-					*/
-					
 					map.addChild(mapArr[y][x]);//将节点显示到地图容器中
 				}//End for x
 			}//End for y
