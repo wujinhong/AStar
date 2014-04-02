@@ -1,11 +1,9 @@
 ﻿package {
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
-	import flash.events.Event;
 	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
 	import flash.events.TimerEvent;
-	import flash.system.System;
 	import flash.text.TextField;
 	import flash.ui.Keyboard;
 	import flash.utils.Timer;
